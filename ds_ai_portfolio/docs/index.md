@@ -60,7 +60,7 @@ Jako osoba, która zmienia branżę (Career Switcher), oferuję unikalne połąc
 ### :mortar_board: Edukacja i Certyfikaty
 Ciągły rozwój to moja codzienność. Oprócz wykształcenia technicznego, potwierdzam swoje umiejętności certyfikatami:
 
-:student: **Wykształcenie:** Mechanik Automatyki Przemysłowej i Urządzeń Precyzyjnych
+:student: **Wykształcenie:** Magister Inżynier Inżynierii Środowiska
 
 :scroll: **Certyfikaty:** 
 
