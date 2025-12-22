@@ -1,0 +1,128 @@
+/* custom.css - Wersja: Przenikanie menu + Karta 98% */
+
+/* 1. TŁO STRONY (Bez zmian) */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('../assets/background.jpg'); 
+    background-size: cover;       
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* 2. NAGŁÓWEK (Header) - Ciemnoniebieski, lekko szklisty */
+.md-header {
+    background-color: rgba(9, 101, 255, 0.8) !important; 
+    backdrop-filter: blur(5px);
+    box-shadow: none !important;
+}
+
+.md-header__title {
+    color: #FF1744 !important; 
+    font-weight: 900 !important; 
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.md-header__button { color: white !important; }
+.md-search { display: none !important; }
+
+
+/* 3. PANELE BOCZNE - NAPRAWA PRZENIKANIA */
+
+.md-sidebar__scrollwrap {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* A. Główny kontener (Ten ma mieć kolor jasnoniebieski) */
+.md-sidebar .md-nav {
+    background-color: rgba(152, 191, 248, 0.8) !important; 
+    padding: 10px !important;
+    border-radius: 10px;
+    margin-top: 10px;
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(100, 180, 255, 0.3); /* Opcjonalna ramka dla lepszej widoczności */
+
+}
+
+/* B. NAPRAWA BRAKU PRZENIKANIA W ROZWINIĘTYM MENU */
+/* To wymusza, żeby wszystko WEWNĄTRZ głównego kontenera było przeźroczyste */
+.md-sidebar .md-nav .md-nav,         /* Zagnieżdżone nawigacje */
+.md-sidebar .md-nav__list,           /* Listy */
+.md-sidebar .md-nav__item,           /* Elementy */
+.md-nav--secondary,                  /* Spis treści */
+.md-nav__item--nested > .md-nav__list { 
+    background: transparent !important; 
+    box-shadow: none !important;
+}
+
+
+/* 4. FORMATOWANIE TEKSTU W MENU (Żeby nagłówki były czarne, jak chciałeś) */
+
+/* Nagłówki sekcji (Portfolio, Spis treści) */
+.md-nav__title,
+label.md-nav__title {
+    color: #000000 !important;   
+    opacity: 1 !important;       
+    font-weight: 700 !important; 
+    background: transparent !important;
+}
+
+/* Linki */
+.md-nav__link {
+    color: #000000 !important;
+    font-weight: 500;
+}
+
+/* Aktywny link */
+.md-nav__item--active > .md-nav__link {
+    font-weight: 900 !important;
+    color: #000000 !important;
+}
+
+
+/* 5. ŚRODKOWA KARTA - Przenikanie 90% */
+
+.md-content__inner {
+    /* Zmiana z #F3F4F8 na RGBA z 0.90 (90%) */
+    background-color: rgba(243, 244, 248, 0.90) !important; 
+    
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+}
+
+/* Usunięcie tła kontenerów nadrzędnych */
+.md-main, .md-grid, .md-container {
+    background: transparent !important;
+}
+
+
+/* 6. UKŁAD STRONY */
+.md-grid {
+    max-width: 1400px !important;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* 7. TYTUŁ GŁÓWNY (H1) */
+h1 {
+    /* Bardzo ciemny granat (prawie czarny) */
+    color: #0d47a1 !important; 
+    font-weight: 800 !important;
+    margin-top: 0 !important;
+}
+
+/* Zdjęcie profilowe */
+.profile-image {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    width: 200px;
+}
