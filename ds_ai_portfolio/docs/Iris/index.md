@@ -6,7 +6,7 @@ Czy można odróżnić gatunek kwiatu, patrząc jedynie na liczby? Ten projekt t
 Przeprowadziłem szczegółową Eksploracyjną Analizę Danych (EDA) irysów, aby wydobyć z tabel to, co niewidoczne na pierwszy rzut oka. Zapraszam do lektury, w której krok po kroku odkrywam wzorce rządzące naturą, prezentując trafne wnioski i obserwacje rzucające nowe światło na ten klasyczny zbiór danych.
 
 
-<a href="iris.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
+<a href="Iris.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
 
 <iframe
     id="content"
