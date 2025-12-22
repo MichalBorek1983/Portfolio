@@ -36,9 +36,10 @@ nav:
   - Projekty:
       - "Nad czym pracuje": 
           - "Interaktywna mapa myśli": Mapa_myśli/index.md
-      - "Poprzednie projekty":
+      - "Analizy EDA":
           - "Iris": Iris/index.md
           - "Titanic": Titanic/index.md
+      - "Wykonane projekty":
           - "Audio-Notatki": Audio-Notatki/index.md
           - "Find Friends": Find_Friends/index.md
           - "Halfmarathon Predictor": Halfmarathon Predictor/index.md
