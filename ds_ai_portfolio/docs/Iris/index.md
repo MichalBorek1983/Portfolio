@@ -10,7 +10,7 @@ Przeprowadziłem szczegółową Eksploracyjną Analizę Danych (EDA) irysów, ab
 
 <iframe
     id="content"
-    src="iris.html"
+    src="Iris.html"
     width="100%"
     style="border:1px solid black;overflow:hidden;"
 ></iframe>
