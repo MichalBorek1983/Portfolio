@@ -1,0 +1,85 @@
+/* GŁÓWNY KONTENER "HERO" */
+.hero-container {
+    display: flex;
+    align-items: center; /* Wyśrodkowanie pionowe */
+    justify-content: space-between;
+    gap: 40px; /* Odstęp między tekstem a zdjęciem */
+    margin-bottom: 40px;
+    padding: 20px 0;
+}
+
+/* LEWA STRONA - TEKST */
+.hero-text {
+    flex: 1; /* Zajmuje dostępną przestrzeń */
+    min-width: 300px;
+}
+
+.hero-text h1 {
+    margin-top: 0;
+    font-weight: 700;
+    color: #333; /* Ciemny szary, profesjonalny */
+}
+
+.hero-text h3 {
+    color: #0066cc; /* Kolor akcentu (niebieski) */
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* PRAWA STRONA - ZDJĘCIE */
+.hero-image {
+    flex-shrink: 0; /* Zapobiega zgniataniu zdjęcia */
+}
+
+.hero-image img {
+    width: 280px;      /* Stała szerokość */
+    height: 280px;     /* Stała wysokość */
+    object-fit: cover; /* Skalowanie zdjęcia bez deformacji */
+    border-radius: 50%; /* Idealne koło */
+    border: 5px solid #fff; /* Biała ramka */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15); /* Elegancki cień */
+    transition: transform 0.3s ease; /* Animacja przy najechaniu */
+}
+
+.hero-image img:hover {
+    transform: scale(1.02); /* Lekkie powiększenie po najechaniu */
+}
+
+/* IKONY SPOŁECZNOŚCIOWE */
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+    text-decoration: none; /* Usuwa podkreślenie linku */
+}
+
+.social-button:hover {
+    background-color: #0066cc; /* Kolor po najechaniu */
+    color: white;
+}
+
+/* RESPANSYWNOŚĆ (TELEFONY) */
+@media screen and (max-width: 800px) {
+    .hero-container {
+        flex-direction: column-reverse; /* Zdjęcie nad tekstem na telefonie */
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
+}

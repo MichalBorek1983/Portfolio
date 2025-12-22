@@ -1,0 +1,54 @@
+site_name: Portfolio
+site_url: https://MichalBorek1983.github.io/Portfolio/
+site_author: Michał Borek
+site_description: "Portfolio projektów Data Science i AI Michała Borka"
+repo_url: https://github.com/MichalBorek1983/Portfolio
+repo_name: MichalBorek1983/Portfolio
+
+theme:
+  name: material
+  language: pl
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+
+
+extra_css:
+  - stylesheets/custom.css
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.superfences
+
+nav:
+  - Strona Domowa: index.md
+  - O mnie: about.md
+  - Projekty:
+      - "Nad czym pracuje": 
+          - "Interaktywna mapa myśli": Mapa_myśli/index.md
+      - "Poprzednie projekty":
+          - "Iris": Iris/index.md
+          - "Titanic": Titanic/index.md
+          - "Audio-Notatki": Audio-Notatki/index.md
+          - "Find Friends": Find_Friends/index.md
+          - "Halfmarathon Predictor": Halfmarathon Predictor/index.md
+          - "Data Integrator": Data_Integrator/index.md
+          - "NaszGPT": NaszGPT/index.md
+  - Kontakt: contact.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MichalBorek1983
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/micha%C5%82-borek-157258394/
