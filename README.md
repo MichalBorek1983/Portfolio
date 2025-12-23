@@ -31,7 +31,6 @@ Poniżej znajdziesz skrót do moich kluczowych projektów. Pełne opisy, kod i d
 **System Rekomendacji**
 * **Cel:** Wyszukiwanie i dopasowywanie profili użytkowników (Matching System).
 * **Tech:** Python, Pandas, Streamlit Cloud.
-* 👉 **[Zobacz Aplikację Live](https://zaddomwdrozeniejp.streamlit.app/)**
 
 ### 3. [NaszGPT 🤖](https://github.com/MichalBorek1983/NaszGPT_DigitalOcean)
 **Własny Asystent AI**
