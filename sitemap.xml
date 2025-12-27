@@ -2,50 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://MichalBorek1983.github.io/Portfolio/</loc>
-         <lastmod>2025-12-22</lastmod>
+         <lastmod>2025-12-27</lastmod>
     </url>
     <url>
          <loc>https://MichalBorek1983.github.io/Portfolio/about/</loc>
-         <lastmod>2025-12-22</lastmod>
+         <lastmod>2025-12-27</lastmod>
     </url>
     <url>
          <loc>https://MichalBorek1983.github.io/Portfolio/contact/</loc>
-         <lastmod>2025-12-22</lastmod>
+         <lastmod>2025-12-27</lastmod>
+    </url>
+    <url>
+         <loc>https://MichalBorek1983.github.io/Portfolio/AI_Decision_Helper/</loc>
+         <lastmod>2025-12-27</lastmod>
     </url>
     <url>
          <loc>https://MichalBorek1983.github.io/Portfolio/Audio-Notatki/</loc>
-         <lastmod>2025-12-22</lastmod>
+         <lastmod>2025-12-27</lastmod>
+    </url>
+    <url>
+         <loc>https://MichalBorek1983.github.io/Portfolio/Career_Guide/</loc>
+         <lastmod>2025-12-27</lastmod>
     </url>
     <url>
          <loc>https://MichalBorek1983.github.io/Portfolio/Data_Integrator/</loc>
-         <lastmod>2025-12-22</lastmod>
+         <lastmod>2025-12-27</lastmod>
     </url>
     <url>
          <loc>https://MichalBorek1983.github.io/Portfolio/Data_Integrator%20copy/</loc>
-         <lastmod>2025-12-22</lastmod>
+         <lastmod>2025-12-27</lastmod>
     </url>
     <url>
          <loc>https://MichalBorek1983.github.io/Portfolio/Find_Friends/</loc>
-         <lastmod>2025-12-22</lastmod>
+         <lastmod>2025-12-27</lastmod>
     </url>
     <url>
          <loc>https://MichalBorek1983.github.io/Portfolio/Halfmarathon%20Predictor/</loc>
-         <lastmod>2025-12-22</lastmod>
+         <lastmod>2025-12-27</lastmod>
     </url>
     <url>
          <loc>https://MichalBorek1983.github.io/Portfolio/Iris/</loc>
-         <lastmod>2025-12-22</lastmod>
-    </url>
-    <url>
-         <loc>https://MichalBorek1983.github.io/Portfolio/Mapa_my%C5%9Bli/</loc>
-         <lastmod>2025-12-22</lastmod>
+         <lastmod>2025-12-27</lastmod>
     </url>
     <url>
          <loc>https://MichalBorek1983.github.io/Portfolio/NaszGPT/</loc>
-         <lastmod>2025-12-22</lastmod>
+         <lastmod>2025-12-27</lastmod>
     </url>
     <url>
          <loc>https://MichalBorek1983.github.io/Portfolio/Titanic/</loc>
-         <lastmod>2025-12-22</lastmod>
+         <lastmod>2025-12-27</lastmod>
     </url>
 </urlset>
