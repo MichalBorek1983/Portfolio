@@ -3,7 +3,7 @@
 <div style="display: flex; gap: 30px; align-items: flex-start;">
 
   <div style="flex: 3;">
-    <h3>Data Scientist | AI Developer | ML Engineer</h3>
+    <h3>Data Scientist | Data Analyst | AI Developer | ML Engineer</h3>
 
     <p style="text-align: justify;">
     Cześć! Nazywam się Michał Borek.

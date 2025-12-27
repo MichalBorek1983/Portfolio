@@ -35,7 +35,7 @@ nav:
   - O mnie: about.md
   - Projekty:
       - "Nad czym pracuje": 
-          - "Interaktywna mapa myśli": Mapa_myśli/index.md
+          - "AI Decision Helper": 
       - "Analizy EDA":
           - "Iris": Iris/index.md
           - "Titanic": Titanic/index.md
@@ -45,6 +45,7 @@ nav:
           - "Halfmarathon Predictor": Halfmarathon Predictor/index.md
           - "Data Integrator": Data_Integrator/index.md
           - "NaszGPT": NaszGPT/index.md
+          - "AI Decision Helper": AI_Decision_Helper/index.md
   - Kontakt: contact.md
 
 extra:
