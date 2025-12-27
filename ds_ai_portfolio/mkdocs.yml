@@ -18,7 +18,6 @@ theme:
     - navigation.sections
     - navigation.top
 
-
 extra_css:
   - stylesheets/custom.css
 
@@ -35,7 +34,9 @@ nav:
   - O mnie: about.md
   - Projekty:
       - "Nad czym pracuje": 
-          - "AI Decision Helper": 
+          # PONIŻEJ BYŁ BŁĄD. Zmień ścieżkę na właściwy plik projektu.
+          # Jeśli plik nie istnieje, musisz go stworzyć (np. w folderze Career_Guide).
+          - "Career_Guide": Career_Guide/index.md 
       - "Analizy EDA":
           - "Iris": Iris/index.md
           - "Titanic": Titanic/index.md
