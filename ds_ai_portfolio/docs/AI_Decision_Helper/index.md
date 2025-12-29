@@ -15,4 +15,4 @@ Cierpliwość — bo czasem błąd to jedna linia kodu, którą szukasz godzinę
 
 
 
-[![Zobacz Aplikację](https://img.shields.io/badge/🚀_Zobacz_Aplikację-success?style=for-the-badge)](https://goldfish-app-64z6z.ondigitalocean.app/)
+[![Zobacz Aplikację](https://img.shields.io/badge/🚀_Zobacz_Aplikację-success?style=for-the-badge)](https://decisionhelper.pl//)
