@@ -20,24 +20,31 @@ To repozytorium służy do generowania mojej strony wizytówki przy użyciu **Mk
 ## 🌟 Wybrane Projekty
 
 Poniżej znajdziesz skrót do moich kluczowych projektów. Pełne opisy, kod i dokumentację znajdziesz na stronie online.
+### 1. [AI Decision Helper 🧠](https://goldfish-app-64z6z.ondigitalocean.app/)
 
-### 1. [Halfmarathon Predictor 🏃](https://monkfish-app-tfxue.ondigitalocean.app/)
+**Interaktywne Mapy Myśli z AI**
+
+* **Cel:** Wizualizacja procesów decyzyjnych poprzez automatycznie generowane mapy myśli z wykorzystaniem LLM.
+* **Tech:** React 19, Node.js, Express, OpenAI API, Groq (Llama 3.3), ReactFlow, DigitalOcean.
+* 👉 **[Zobacz Aplikację Live](https://goldfish-app-64z6z.ondigitalocean.app/)**
+  
+### 2. [Halfmarathon Predictor 🏃](https://monkfish-app-tfxue.ondigitalocean.app/)
 **Model ML & Aplikacja Webowa**
 * **Cel:** Przewidywanie czasu ukończenia półmaratonu na podstawie parametrów treningowych.
 * **Tech:** Python, Scikit-Learn, Streamlit, DigitalOcean.
 * 👉 **[Zobacz Aplikację Live](https://monkfish-app-tfxue.ondigitalocean.app/)**
 
-### 2. [Znajdź Znajomych 🤝](https://zaddomwdrozeniejp.streamlit.app/)
+### 3. [Znajdź Znajomych 🤝](https://zaddomwdrozeniejp.streamlit.app/)
 **System Rekomendacji**
 * **Cel:** Wyszukiwanie i dopasowywanie profili użytkowników (Matching System).
 * **Tech:** Python, Pandas, Streamlit Cloud.
 
-### 3. [NaszGPT 🤖](https://github.com/MichalBorek1983/NaszGPT_DigitalOcean)
+### 4. [NaszGPT 🤖](https://github.com/MichalBorek1983/NaszGPT_DigitalOcean)
 **Własny Asystent AI**
 * **Cel:** Implementacja własnego interfejsu do modeli OpenAI z kontrolą parametrów i pamięcią kontekstu.
 * **Tech:** OpenAI API, LangChain, Streamlit.
 
-### 4. Audio-Notatki 🎙️
+### 5. Audio-Notatki 🎙️
 **Automatyzacja i NLP**
 * **Cel:** Transkrypcja nagrań głosowych (Whisper) i automatyczne generowanie podsumowań spotkań.
 
