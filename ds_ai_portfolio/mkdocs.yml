@@ -33,13 +33,15 @@ nav:
   - Strona Domowa: index.md
   - O mnie: about.md
   - Projekty:
-      - "Nad czym pracuje": 
-          # PONIŻEJ BYŁ BŁĄD. Zmień ścieżkę na właściwy plik projektu.
-          # Jeśli plik nie istnieje, musisz go stworzyć (np. w folderze Career_Guide).
-          - "Career_Guide": Career_Guide/index.md 
+      - "Nad czym pracuje":
+          - "Agent Telegram": Agent_Telegram/index.md
+          - "Agent Platform": Agent_Platform/index.md
+          - "Combined Studio": Combined_Studio/index.md
       - "Analizy EDA":
           - "Iris": Iris/index.md
           - "Titanic": Titanic/index.md
+      - "Power BI":
+          - "EMNDR Dashboard": EMNDR_Dashboard/index.md
       - "Wykonane projekty":
           - "Audio-Notatki": Audio-Notatki/index.md
           - "Find Friends": Find_Friends/index.md

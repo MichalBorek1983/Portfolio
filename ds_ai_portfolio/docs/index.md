@@ -41,6 +41,7 @@ Nie jestem teoretykiem. Tworzę aplikacje, które działają. Oto narzędzia, kt
 | **Data Science & ML** | Pandas, NumPy, Scikit-learn, **CatBoost**, PyCaret, Matplotlib, Seaborn |
 | **Generative AI (LLM)** | **OpenAI API**, LangChain, Whisper (STT), QDrant (Vector DB), Langfuse |
 | **Web Development** | **Streamlit** (budowa interaktywnych aplikacji MVP) |
+| **Business Intelligence** | **Power BI** (Power Query, DAX, Data Modeling, Power BI Service) |
 | **Narzędzia** | Git, Docker, Excel (zaawansowany), Digital Ocean |
 
 ---
@@ -64,9 +65,11 @@ Ciągły rozwój to moja codzienność. Oprócz wykształcenia technicznego, pot
 
 :scroll: **Certyfikaty:** 
 
+* **Odczaruj Power BI** – 6-tygodniowy kurs Power BI (Paweł Czapiewski, 2026) — Power Query, DAX, Data Modeling, Data Visualization, Power BI Service
 * **Kurs "Od zera do AI"** (Intensywny bootcamp Data Science & AI)
 * **SQL dla prawdziwie początkujących** (Udemy)
 * **Excel – praktyczny niezbędnik Analityka** (Udemy)
+* **Excel – Mistrz** (Udemy)
 * **Certyfikaty branżowe:** Audytor wewnętrzny ISO 9001/14001/45001, Technolog CNC, Programista CAM (TÜV Rheinland)
 
 ---
