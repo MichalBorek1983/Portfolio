@@ -1,4 +1,4 @@
-## Agent – Multi-Tool AI Assistant in Telegram 🤖
+# Agent – Multi-Tool AI Assistant in Telegram 🤖
 Node.js | Gemini 1.5 Pro | OpenAI | Telegram Bot API | Google APIs | Notion
 
 Mój asystent AI jest zawsze pod ręką, dosłownie. Wystarczy otworzyć Telegram i napisać, co trzeba zrobić.

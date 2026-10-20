@@ -1,9 +1,9 @@
-## Agenci SDLC 🛡️
+# Agenci SDLC 🛡️
 Python | LangGraph | Claude Agent SDK | SQLite | pydantic | MCP
 
 Agent piszący kod jest szybki. Trudniej sprawić, żeby słaby wynik został zatrzymany, zanim człowiek zacznie go czytać. Agenci SDLC to platforma agentów wspierających cykl życia oprogramowania (PO/BA, Architect, QA, Coder, Code Reviewer, Security Auditor), w której kontrola jakości i bezpieczeństwa jest częścią architektury.
 
-### Decyzje projektowe
+## Decyzje projektowe
 
 * **Stan projektu jako maszyna stanów.** Przejścia (od `PRD_DRAFT` do `DONE`) opisuje jawna tabela, a para spoza tabeli kończy się wyjątkiem.
 * **Reguła programowa zamiast kolejnego wywołania modelu.** Każde działanie agenta o skutkach jest zapisywane jako Action Envelope i oceniane przez punkt egzekwowania polityki (ALLOW, DENY albo REQUIRE_HUMAN). Klasyfikator semantyczny jest świadomie odłożony i zapisany jako jawnie zaakceptowane ryzyko.
@@ -13,7 +13,7 @@ Agent piszący kod jest szybki. Trudniej sprawić, żeby słaby wynik został za
 * **Router modeli z poziomami i zapasowym dostawcą.** QA i Architect są najpierw kierowani na tańszy model (DeepSeek), z wyższym poziomem jako zapasem.
 * **Integracja MCP i interfejs eskalacji.** Orchestrator jest wystawiony jako narzędzie dla Claude Code, a kontrakt kanału eskalacji jest zweryfikowany na żywo. Kanały Slack i WWW są jeszcze w przygotowaniu.
 
-### Stan i dowody
+## Stan i dowody
 
 * 426 testów jednostkowych zielonych (pakiet `orchestrator`, stan z dokumentacji faz, wrzesień 2026).
 * Bramka GATE-01 (Credential Broker i test negatywny) jest zielona, razem z testem end-to-end na żywym modelu.

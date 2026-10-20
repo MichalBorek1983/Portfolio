@@ -1,4 +1,4 @@
-## EMNDR Dashboard 📊
+# EMNDR Dashboard 📊
 Power BI | Business Intelligence | DAX | ETL
 
 Wyobraź sobie, że zarządzasz firmą z siecią sklepów na kilku kontynentach, setkami produktów i milionami transakcji.

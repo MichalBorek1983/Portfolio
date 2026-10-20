@@ -1,4 +1,4 @@
-## Combined Studio 🎬
+# Combined Studio 🎬
 Python | customtkinter | OpenAI | Anthropic | DeepSeek | Groq | Gemini | ElevenLabs | FFmpeg
 
 Film na YouTube to dziesiątki narzędzi i zakładek: pomysł, research, skrypt, obrazy, głos, muzyka, montaż, publikacja. Combined Studio zamyka cały ten tor w jednej aplikacji desktopowej, od wyszukania historii po gotowy film, Shorty i materiały marketingowe.
@@ -7,7 +7,7 @@ Combined Studio napędza EMNDR, moją markę produkcji wideo AI. Strona studia: 
 
 Skala (stan z 27.09.2026): 97 modułów w Pythonie (ok. 61 tys. linii), 44 pliki testów (ok. 4,6 tys. linii) i 36 raportów audytu kodu.
 
-### Co obejmuje
+## Co obejmuje
 
 * **Odkrywanie materiału.** Wyszukiwanie historii i tematów z oceną (scoring), tracker konkurencji z metrykami kanałów i analizą luk, prawdziwa transkrypcja YouTube w trzech warstwach napisów oraz Whisper na audio. Wcześniej model zmyślał treść na podstawie tytułu, więc transkrypcja stała się osobnym krokiem.
 * **Redakcja.** Redakcja antyplagiatowa (Claude, z zapasem na DeepSeek), pamięć wcześniejszych redakcji jako lista zakazana (imiona, schematy, otwarcia, metafory), strażnik gramatyki i strażnik wyjścia modelu wykrywający ucięcia.
@@ -16,7 +16,7 @@ Skala (stan z 27.09.2026): 97 modułów w Pythonie (ok. 61 tys. linii), 44 pliki
 * **Montaż.** Efekty ruchu obrazu liczone w numpy (paralaksa, cząsteczki z okluzją, dolly-zoom), narrator na kamerze i Shorty wycinane z realnych czasów.
 * **Publikacja i koszty.** Materiały marketingowe YouTube z krokiem SEO, planer produkcji z prognozą kosztów i kontrola budżetu przed kosztownymi wywołaniami.
 
-### Decyzje i dowody
+## Decyzje i dowody
 
 * **Wielu dostawców AI.** Model jest dobierany do zadania (szybkość, jakość, koszt), a kluczowe kroki mają zapas u innego dostawcy.
 * **Uczciwość danych.** Baza startowa konkurencji pochodząca z analizy modelu jest oznaczona jako szacunkowa.
