@@ -50,7 +50,7 @@ Poniżej skrót najważniejszych projektów (te same, co w sekcji "Wyróżnione"
 ### 6. Halfmarathon Predictor 🏃
 **Model ML i aplikacja webowa**
 * **Cel:** Przewidywanie czasu półmaratonu na podstawie płci, wieku i czasu na 5 km, z opisem ograniczeń modelu. [Kod](https://github.com/MichalBorek1983/halfmarathon).
-* **Tech:** Python, PyCaret (CatBoost), Streamlit.
+* **Tech:** Python, PyCaret, Streamlit.
 
 ### 7. EMNDR Dashboard 📊
 **Raport Power BI**

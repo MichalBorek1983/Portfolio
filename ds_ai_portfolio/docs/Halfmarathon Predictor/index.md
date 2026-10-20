@@ -1,11 +1,11 @@
 # Halfmarathon Predictor 🏃
-Python | PyCaret (CatBoost) | Streamlit
+Python | PyCaret | Streamlit
 
 Każdy biegacz na starcie pyta siebie, na co go stać. Aplikacja przewiduje czas półmaratonu (i średnie tempo) na podstawie płci, wieku i czasu na 5 km, a zakładki Dane i Analiza pokazują statystyki wyników z 2023 i 2024.
 
 ## Dane i model
 
-Model regresji powstał na 17 626 wynikach z Półmaratonu Wrocławskiego (edycje 2023 i 2024). Metadane zapisane przy modelu to eksperyment "EXP1" z czasami na 5, 10 i 15 km, wiekiem i płcią, średni błąd bezwzględny 1,36 minuty i R² 0,9876.
+Model regresji (pipeline PyCaret z regresją Hubera) powstał na 17 626 wynikach z Półmaratonu Wrocławskiego (edycje 2023 i 2024). Metadane zapisane przy modelu to eksperyment "EXP1" z czasami na 5, 10 i 15 km, wiekiem i płcią, średni błąd bezwzględny 1,36 minuty i R² 0,9876.
 
 ## Ograniczenie
 
