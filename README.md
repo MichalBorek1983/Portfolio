@@ -49,8 +49,8 @@ Poniżej skrót najważniejszych projektów (te same, co w sekcji "Wyróżnione"
 
 ### 6. Halfmarathon Predictor 🏃
 **Model ML i aplikacja webowa**
-* **Cel:** Przewidywanie czasu półmaratonu z komentarzem LLM monitorowanym w Langfuse. [Kod](https://github.com/MichalBorek1983/halfmarathon).
-* **Tech:** Python, PyCaret (CatBoost), Streamlit, Langfuse.
+* **Cel:** Przewidywanie czasu półmaratonu na podstawie płci, wieku i czasu na 5 km, z opisem ograniczeń modelu. [Kod](https://github.com/MichalBorek1983/halfmarathon).
+* **Tech:** Python, PyCaret (CatBoost), Streamlit.
 
 ### 7. EMNDR Dashboard 📊
 **Raport Power BI**
