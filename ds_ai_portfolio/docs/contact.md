@@ -5,7 +5,6 @@ Chcesz się ze mną skontaktować? Skorzystaj z jednej z poniższych opcji.
 ## 📬 Dane bezpośrednie
 
 * **Email:** [michal.borek83@gmail.com](mailto:michal.borek83@gmail.com)
-* **Telefon:** +48 505 316 586
 * **Lokalizacja:** Kielce, Polska
 
 ---
