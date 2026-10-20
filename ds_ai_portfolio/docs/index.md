@@ -3,7 +3,7 @@
 <div style="display: flex; gap: 30px; align-items: flex-start;">
 
   <div style="flex: 3;">
-    <h3>Data Scientist | Data Analyst | AI Developer | ML Engineer</h3>
+    <h3>Data Analyst | Data Scientist | AI Developer</h3>
 
     <p style="text-align: justify;">
     Cześć! Nazywam się Michał Borek.
@@ -26,33 +26,33 @@
 </div>
 
 <p style="text-align: justify;">
-„Hobbystyczne programowanie to dla mnie połączenie pasji z pożytecznym. Tworzę aplikacje, które realnie ułatwiają życie i automatyzują codzienne czynności. Praca nad własnymi narzędziami daje mi satysfakcję, a jednocześnie jest najskuteczniejszym sposobem na ciągłe podnoszenie moich kwalifikacji w świecie IT.”
+„Programowanie na własne potrzeby to dla mnie połączenie pasji z pożytecznym. Tworzę aplikacje, które realnie ułatwiają życie i automatyzują codzienne czynności. Praca nad własnymi narzędziami daje mi satysfakcję, a jednocześnie jest najskuteczniejszym sposobem na ciągłe podnoszenie moich kwalifikacji w świecie IT.”
 </p>
 
 ---
 
 ### :hammer_and_wrench: Mój Stack Technologiczny
 
-Nie jestem teoretykiem. Tworzę aplikacje, które działają. Oto narzędzia, których używam na co dzień:
+Tworzę aplikacje, które działają. Oto narzędzia, których używam na co dzień:
 
 | Obszar | Technologie i Narzędzia |
 | :--- | :--- |
 | **Programowanie** | **Python** (średnio zaawansowany), SQL (podstawy) |
 | **Data Science & ML** | Pandas, NumPy, Scikit-learn, **CatBoost**, PyCaret, Matplotlib, Seaborn |
-| **Generative AI (LLM)** | **OpenAI API**, LangChain, Whisper (STT), QDrant (Vector DB), Langfuse |
-| **Web Development** | **Streamlit** (budowa interaktywnych aplikacji MVP) |
+| **Generative AI (LLM)** | **OpenAI API**, LangChain, LangGraph, MCP, Whisper (STT), Qdrant i pgvector (bazy wektorowe), Langfuse |
+| **Web Development** | **Streamlit**, React, Node.js, FastAPI |
 | **Business Intelligence** | **Power BI** (Power Query, DAX, Data Modeling, Power BI Service) |
-| **Narzędzia** | Git, Docker, Excel (zaawansowany), Digital Ocean |
+| **Narzędzia** | Git, Docker, PostgreSQL, Excel (zaawansowany) |
 
 ---
 
 ### :handshake: Co wnoszę do zespołu? (Moja przewaga)
 
-Jako osoba, która zmienia branżę (Career Switcher), oferuję unikalne połączenie umiejętności "twardych" i "miękkich":
+Łączę ponad 15 lat pracy inżynierskiej z analizą danych i AI:
 
-* :white_check_mark: **Inżynierska precyzja:** 15 lat pracy z normami i kontrolą jakości wyrobiło we mnie nawyk dbania o czystość danych i weryfikację wyników.
-* :chart_with_upwards_trend: **Rozumienie biznesu:** Wiem, że model ML nie jest celem samym w sobie – ma rozwiązywać konkretny problem i przynosić wartość (ROI).
-* :busts_in_silhouette: **Doświadczenie w zarządzaniu:** Jako były kierownik działu potrafię zarządzać projektami, brać odpowiedzialność za zadania i efektywnie komunikować się z zespołem.
+* :white_check_mark: **Inżynierska precyzja:** Ponad 15 lat pracy z normami, pomiarami i kontrolą jakości wyrobiło we mnie nawyk dbania o czystość danych i weryfikację wyników.
+* :chart_with_upwards_trend: **Rozumienie biznesu:** Wiem, że model ML ma rozwiązywać konkretny problem i przynosić wartość (ROI).
+* :busts_in_silhouette: **Doświadczenie kierownicze:** Kierowałem laboratorium (jako p.o. kierownika), działem kontroli jakości i zmianą w zakładzie górniczym, więc wiem, jak brać odpowiedzialność za zadania i komunikować się z zespołem.
 
 ---
 
@@ -61,15 +61,17 @@ Jako osoba, która zmienia branżę (Career Switcher), oferuję unikalne połąc
 ### :mortar_board: Edukacja i Certyfikaty
 Ciągły rozwój to moja codzienność. Oprócz wykształcenia technicznego, potwierdzam swoje umiejętności certyfikatami:
 
-:student: **Wykształcenie:** Magister Inżynier Inżynierii Środowiska
+:student: **Wykształcenie:** Politechnika Świętokrzyska (magister, Ogrzewnictwo i wentylacja; inżynier, Uzdatnianie wody i oczyszczanie ścieków), AGH (studia podyplomowe, Górnictwo odkrywkowe)
 
 :scroll: **Certyfikaty:** 
 
-* **Odczaruj Power BI** – 6-tygodniowy kurs Power BI (Paweł Czapiewski, 2026) — Power Query, DAX, Data Modeling, Data Visualization, Power BI Service
-* **Kurs "Od zera do AI"** (Intensywny bootcamp Data Science & AI)
-* **SQL dla prawdziwie początkujących** (Udemy)
+* **Odczaruj Power BI** – 6-tygodniowy kurs Power BI (Paweł Czapiewski, 2026): Power Query, DAX, Data Modeling, Data Visualization, Power BI Service
+* **Pracuj w AI: Zostań Data Scientist od Zera** (GOT IT / IMPRV, grudzień 2025): intensywny bootcamp Data Science i AI
+* **Power BI dla Analityków Danych** (Bideveloper, 2026) oraz certyfikat uczestnictwa w społeczności **Data Heroes** (2026)
 * **Excel – praktyczny niezbędnik Analityka** (Udemy)
 * **Excel – Mistrz** (Udemy)
-* **Certyfikaty branżowe:** Audytor wewnętrzny ISO 9001/14001/45001, Technolog CNC, Programista CAM (TÜV Rheinland)
+* **Certyfikaty branżowe:** Audytor wewnętrzny ISO 9001/14001/45001 (TÜV Rheinland), Technolog CNC i Programista CAM (TÜV Polska)
+
+Pełna lista certyfikatów jest na [LinkedIn](https://www.linkedin.com/in/micha%C5%82-borek-157258394/).
 
 ---

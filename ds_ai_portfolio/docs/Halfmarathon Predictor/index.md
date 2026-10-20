@@ -1,15 +1,18 @@
+## Halfmarathon Predictor 🏃
+Python | PyCaret (CatBoost) | Streamlit | OpenAI | Langfuse
 
-#  Halfmarathon Predictor: Twój osobisty strateg biegowy napędzany AI
-Każdy biegacz, stając na starcie, zadaje sobie to samo pytanie: „Na co mnie stać?”. Dystans 21,0975 km to test charakteru, ale Twój wynik na mecie nie musi być zagadką.
+Każdy biegacz na starcie pyta siebie, na co go stać. Aplikacja przewiduje czas półmaratonu na podstawie płci, wieku i czasu na 5 km, a model językowy dodaje komentarz taktyczny.
 
-Halfmarathon Predictor to projekt Data Science, który zamienia niepewność w strategię. Aplikacja nie zgaduje – ona analizuje fakty.
+### Dane i model
 
-Sercem systemu jest potężny model regresyjny oparty na algorytmie CatBoost, wytrenowany na tysiącach rzeczywistych wyników uczestników Półmaratonu Wrocławskiego (edycje 2023 i 2024). Wystarczy, że wprowadzisz swoje kluczowe parametry: płeć, wiek oraz aktualny czas na 5 km. Algorytm, porównując Twoją formę z historią tysięcy innych biegaczy, z wysoką precyzją prognozuje Twój czas ukończenia półmaratonu.
+Model regresji powstał na 17 626 wynikach z Półmaratonu Wrocławskiego (edycje 2023 i 2024). Metadane zapisane przy modelu to eksperyment "EXP1" z czasami na 5, 10 i 15 km, wiekiem i płcią, średni błąd bezwzględny 1,36 minuty i R² 0,9876.
 
-Ale sucha liczba to za mało. Aplikacja idzie o krok dalej, integrując Large Language Model (LLM).
+### Ograniczenie
 
-Wirtualny Trener: LLM analizuje Twoje dane wejściowe, by dostarczyć spersonalizowany feedback i porady taktyczne przed startem.
+Aplikacja pyta użytkownika tylko o czas na 5 km, a czasy na 10 i 15 km szacuje stałymi mnożnikami (2,05 i 3,10 razy czas na 5 km). Liczby z metadanych dotyczą modelu z rzeczywistymi czasami pośrednimi, więc nie podaję ich jako dokładności samej aplikacji. Błąd prognozy z samego czasu na 5 km jest nieznany i może być większy.
 
-Pełna kontrola jakości: Aby mieć pewność, że porady AI są trafne i rzetelne, każda interakcja modelu jest monitorowana i ewaluowana przez platformę Langfuse. Zapewnia to transparentność i najwyższą jakość generowanych odpowiedzi.
+### Komentarz modelu językowego
 
-Całość została zamknięta w interaktywnym interfejsie Streamlit i wsparta infrastrukturą chmurową Digital Ocean. To narzędzie dla tych, którzy chcą biegać mądrzej, a nie tylko ciężej.
+LLM analizuje dane wejściowe i podaje spersonalizowane porady taktyczne. Każda interakcja jest śledzona i oceniana w Langfuse.
+
+Kod jest publiczny: [github.com/MichalBorek1983/halfmarathon](https://github.com/MichalBorek1983/halfmarathon). Aplikacja demonstracyjna jest w tej chwili niedostępna.

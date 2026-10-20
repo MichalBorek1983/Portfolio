@@ -10,6 +10,6 @@ Wydobycie (Extraction): System łączy się z bazą SQLite, by pobrać ustruktur
 
 Transformacja (Transformation): Surowe dane są czyszczone, standaryzowane i walidowane. Algorytm dba o to, by ID klienta z bazy pasowało do tego na fakturze, a nazwy produktów były spójne we wszystkich źródłach.
 
-Ładowanie (Loading): Wynikiem działania nie jest kolejny raport do "odkręcania", ale czysty, zunifikowany plik CSV. To "jedno źródło prawdy" (Single Source of Truth), gotowe do natychmiastowej analizy biznesowej.
+Ładowanie (Loading): Wynikiem działania jest czysty, zunifikowany plik CSV, bez raportu do "odkręcania". To "jedno źródło prawdy" (Single Source of Truth), gotowe do natychmiastowej analizy biznesowej.
 
 Ten projekt udowadnia, że format danych nie jest ograniczeniem. Niezależnie od tego, czy informacja jest rekordem w bazie, czy pikselem na skanie faktury – zostanie przetworzona, połączona i dostarczona w użytecznej formie.

@@ -2,7 +2,7 @@
 #  Find Friends: Algorytm, który łączy ludzi
 Czy wiesz, że to, z kim najlepiej się dogadujemy, rzadko jest dziełem przypadku? To suma wspólnych wartości, zainteresowań i cech charakteru. Find Friends to projekt, który zamienia tę intuicję w twarde dane.
 
-To nie jest kolejna typowa aplikacja randkowa czy społecznościowa oparta na przesuwaniu zdjęć. To narzędzie Data Science, które eliminuje zgadywanie z procesu nawiązywania relacji.
+To narzędzie Data Science, które eliminuje zgadywanie z procesu nawiązywania relacji, bez przesuwania zdjęć jak w aplikacjach randkowych.
 
 Aplikacja działa w oparciu o precyzyjny proces:
 
