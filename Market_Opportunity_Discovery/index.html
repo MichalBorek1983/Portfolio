@@ -499,6 +499,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -541,6 +543,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -549,18 +553,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#market-opportunity-discovery" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Market Opportunity Discovery 🔎
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Market Opportunity Discovery 🔎">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#decyzje-projektowe" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -570,8 +562,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#stan-i-ograniczenia" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -579,11 +571,6 @@
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -882,6 +869,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -890,18 +879,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#market-opportunity-discovery" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Market Opportunity Discovery 🔎
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Market Opportunity Discovery 🔎">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#decyzje-projektowe" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -911,8 +888,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#stan-i-ograniczenia" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -920,11 +897,6 @@
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -948,12 +920,10 @@
   
 
 
-  <h1>Market Opportunity Discovery</h1>
-
-<h2 id="market-opportunity-discovery">Market Opportunity Discovery 🔎</h2>
+<h1 id="market-opportunity-discovery">Market Opportunity Discovery 🔎</h1>
 <p>Python | PostgreSQL + pgvector | Alembic | OpenAI embeddings | pytest</p>
 <p>System cyklicznego wyszukiwania i oceny nisz rynkowych. Szuka w sieci tematów, które mogą być niszami wartymi sprawdzenia, i ocenia je w sposób, który da się powtórzyć i zakwestionować.</p>
-<h3 id="decyzje-projektowe">Decyzje projektowe</h3>
+<h2 id="decyzje-projektowe">Decyzje projektowe</h2>
 <ul>
 <li><strong>Siedem źródeł kandydatów.</strong> Hacker News, arXiv, Stack Exchange i GitHub działają bez kluczy, a eBay, USPTO i Tavily są podłączone i czekają na poświadczenia. Google Custom Search odrzuciłem (zamknięty dla nowych klientów, wygasa 1.01.2027), a jego adapter usunąłem z kodu.</li>
 <li><strong>Novelty-check w dwóch etapach.</strong> Embedding (pgvector, <code>text-embedding-3-small</code>) zawęża kandydatów, a dopiero potem wynik potwierdza LLM, więc model jest wołany tylko dla wąskiego zbioru.</li>
@@ -961,7 +931,7 @@
 <li><strong>Izolacja danych.</strong> System działa w dedykowanym schemacie bazy, nigdy w <code>public</code>, a migracje pomijają obiekty spoza tego schematu.</li>
 <li><strong>Testy bez kosztu.</strong> Testy jednostkowe, złote i end-to-end używają zamockowanego LLM. Prawdziwe wywołania są w osobnych skryptach poza <code>pytest</code>.</li>
 </ul>
-<h3 id="stan-i-ograniczenia">Stan i ograniczenia</h3>
+<h2 id="stan-i-ograniczenia">Stan i ograniczenia</h2>
 <p>To prototyp (PoC). Nie ma jeszcze harmonogramu cyklicznego ani raportu. Nie sprawdzono też, czy ocena po co najmniej dwóch cyklach odróżnia się od przypisania losowego. To kryterium przejścia do następnej fazy. Repozytorium jest prywatne.</p>
 
 

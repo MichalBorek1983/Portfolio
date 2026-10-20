@@ -471,6 +471,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -513,6 +515,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -521,18 +525,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ai-decision-helper" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AI Decision Helper 🧠
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="AI Decision Helper 🧠">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#decyzje-projektowe" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -542,8 +534,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#dowod" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -551,11 +543,6 @@
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -882,6 +869,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -890,18 +879,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ai-decision-helper" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AI Decision Helper 🧠
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="AI Decision Helper 🧠">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#decyzje-projektowe" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -911,8 +888,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#dowod" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -920,11 +897,6 @@
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -948,19 +920,17 @@
   
 
 
-  <h1>AI Decision Helper</h1>
-
-<h2 id="ai-decision-helper">AI Decision Helper 🧠</h2>
+<h1 id="ai-decision-helper">AI Decision Helper 🧠</h1>
 <p>React | Node.js | Express | ReactFlow | OpenAI API | Groq</p>
 <p>Siedzisz przed ważną decyzją. W głowie masz chaos: dziesiątki myśli, które się przeplatają, argumenty za i przeciw, pytania bez odpowiedzi. Otwierasz notatnik i po godzinie masz ścianę tekstu, ale nadal nie wiesz, co wybrać. Mózg myśli w skojarzeniach i rozgałęzieniach, a tradycyjne notatki tego nie oddają. Dlatego powstała ta aplikacja: wpisujesz temat, a odpowiedź modelu staje się mapą myśli, jednym faktem i trzema gałęziami do rozwinięcia.</p>
-<h3 id="decyzje-projektowe">Decyzje projektowe</h3>
+<h2 id="decyzje-projektowe">Decyzje projektowe</h2>
 <ul>
 <li><strong>Odpowiedź modelu ma stały kształt.</strong> Kod dzieli ją po separatorze <code>||</code> na kod języka, fakt i trzy gałęzie, a z reszty buduje węzły. Gdy zostaną mniej niż dwie części, aplikacja informuje o niepoprawnym formacie i prosi o ponowienie.</li>
 <li><strong>Każda gałąź ma swoją rolę.</strong> A to alternatywa lub inny przykład z tej samej kategorii, B to strona techniczna, finansowa lub praktyczna, C to kontekst historyczny, społeczny lub ryzyko. Reguły w prompcie wymuszają brak powtórzeń, więc gałęzie otwierają nowe kategorie.</li>
 <li><strong>Pozycje węzłów liczy klasa na 83 linie.</strong> Dla każdej kolumny trzyma zajęte przedziały pionowe z buforem 50 jednostek, a zajęta pozycja odsyła węzeł na koniec kolumny. Stałe układu są w jednym pliku konfiguracyjnym.</li>
 <li><strong>Wybór modelu.</strong> <code>llama-3.3-70b</code> przez Groq (darmowy), <code>gpt-4o-mini</code> i <code>gpt-4o</code> z kluczem OpenAI. Rozmowy zapisują się automatycznie.</li>
 </ul>
-<h3 id="dowod">Dowód</h3>
+<h2 id="dowod">Dowód</h2>
 <p>Działająca aplikacja: <a href="https://decisionhelper.pl/">decisionhelper.pl</a>. Repozytorium jest prywatne.</p>
 
 

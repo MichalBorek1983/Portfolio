@@ -443,6 +443,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -485,6 +487,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -493,18 +497,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#agenci-sdlc" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Agenci SDLC 🛡️
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Agenci SDLC 🛡️">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#decyzje-projektowe" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -514,8 +506,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#stan-i-dowody" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -523,11 +515,6 @@
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -882,6 +869,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -890,18 +879,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#agenci-sdlc" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Agenci SDLC 🛡️
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Agenci SDLC 🛡️">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#decyzje-projektowe" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -911,8 +888,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#stan-i-dowody" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -920,11 +897,6 @@
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -948,12 +920,10 @@
   
 
 
-  <h1>Agenci SDLC</h1>
-
-<h2 id="agenci-sdlc">Agenci SDLC 🛡️</h2>
+<h1 id="agenci-sdlc">Agenci SDLC 🛡️</h1>
 <p>Python | LangGraph | Claude Agent SDK | SQLite | pydantic | MCP</p>
 <p>Agent piszący kod jest szybki. Trudniej sprawić, żeby słaby wynik został zatrzymany, zanim człowiek zacznie go czytać. Agenci SDLC to platforma agentów wspierających cykl życia oprogramowania (PO/BA, Architect, QA, Coder, Code Reviewer, Security Auditor), w której kontrola jakości i bezpieczeństwa jest częścią architektury.</p>
-<h3 id="decyzje-projektowe">Decyzje projektowe</h3>
+<h2 id="decyzje-projektowe">Decyzje projektowe</h2>
 <ul>
 <li><strong>Stan projektu jako maszyna stanów.</strong> Przejścia (od <code>PRD_DRAFT</code> do <code>DONE</code>) opisuje jawna tabela, a para spoza tabeli kończy się wyjątkiem.</li>
 <li><strong>Reguła programowa zamiast kolejnego wywołania modelu.</strong> Każde działanie agenta o skutkach jest zapisywane jako Action Envelope i oceniane przez punkt egzekwowania polityki (ALLOW, DENY albo REQUIRE_HUMAN). Klasyfikator semantyczny jest świadomie odłożony i zapisany jako jawnie zaakceptowane ryzyko.</li>
@@ -963,7 +933,7 @@
 <li><strong>Router modeli z poziomami i zapasowym dostawcą.</strong> QA i Architect są najpierw kierowani na tańszy model (DeepSeek), z wyższym poziomem jako zapasem.</li>
 <li><strong>Integracja MCP i interfejs eskalacji.</strong> Orchestrator jest wystawiony jako narzędzie dla Claude Code, a kontrakt kanału eskalacji jest zweryfikowany na żywo. Kanały Slack i WWW są jeszcze w przygotowaniu.</li>
 </ul>
-<h3 id="stan-i-dowody">Stan i dowody</h3>
+<h2 id="stan-i-dowody">Stan i dowody</h2>
 <ul>
 <li>426 testów jednostkowych zielonych (pakiet <code>orchestrator</code>, stan z dokumentacji faz, wrzesień 2026).</li>
 <li>Bramka GATE-01 (Credential Broker i test negatywny) jest zielona, razem z testem end-to-end na żywym modelu.</li>
