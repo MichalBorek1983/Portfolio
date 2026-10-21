@@ -38,7 +38,7 @@ Tworzę aplikacje, które działają. Oto narzędzia, których używam na co dzi
 | Obszar | Technologie i Narzędzia |
 | :--- | :--- |
 | **Programowanie** | **Python** (średnio zaawansowany), SQL (podstawy) |
-| **Data Science & ML** | Pandas, NumPy, Scikit-learn, **CatBoost**, PyCaret, Matplotlib, Seaborn |
+| **Data Science & ML** | Pandas, NumPy, Scikit-learn, PyCaret, Matplotlib, Seaborn |
 | **Generative AI (LLM)** | **OpenAI API**, LangChain, LangGraph, MCP, Whisper (STT), Qdrant i pgvector (bazy wektorowe), Langfuse |
 | **Web Development** | **Streamlit**, React, Node.js, FastAPI |
 | **Business Intelligence** | **Power BI** (Power Query, DAX, Data Modeling, Power BI Service) |
